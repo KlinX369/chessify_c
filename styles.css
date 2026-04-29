@@ -64,6 +64,7 @@ img{
     border-radius: 10px;
     min-height: 30vh;
     gap: 10px;
+    position: relative;
 }
 .header img{
     height: 100%;
@@ -77,6 +78,7 @@ img{
 }
 .header .chessify_bio{
     height: 70%;
+text-align: justify;
 }
 .header .chessify_bio h1{
     color: rgb(94, 7, 7);
@@ -209,6 +211,9 @@ img{
         width: 100%;
         height: auto;
     }
+.header .chessify_bio{
+text-align: center;
+}
     .hero{
         flex-direction: column;
         height: auto;
