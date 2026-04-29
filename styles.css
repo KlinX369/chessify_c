@@ -45,7 +45,7 @@ img{
 .navbar .nav_menu{
     margin-left: auto;
     display: flex;
-    flex-wrap: wrap;
+ 
     gap: 2px;
     font-size: clamp(1em, 2vw, 1.5em);
 }
